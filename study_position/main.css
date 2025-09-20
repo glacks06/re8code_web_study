@@ -1,0 +1,22 @@
+.a{
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    position: relative;
+    top: 10px;
+}
+.b{
+    width: 250px;
+    height: 100px;
+    background-color: skyblue;
+    /* position: relative;  */
+    /* left: 10px; */
+}
+.c{
+    width: 300px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    top: 100px;
+}
+.fl{float: left;}
