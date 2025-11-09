@@ -1,29 +1,14 @@
-/* *, *::before, *::after{
-    box-sizing: border-box;
-} */
-*{
-    box-sizing: border-box;
-}
-
-.a{
-    width: 350px;
-    height: 125px;
-    background-color: pink;
-}
-.a::before{
-    content: 'before';
-    display: inline-block;
-    width: 125px;
-    height: 125px;
-    background-color: orange;
-    padding: 10px;
-    border: 10px solid #000;
-}
-.a::after{
-    content: 'after';
-    display: inline-block;
-    width: 125px;
-    height: 125px;
-    background-color: skyblue;
-    padding: 20px;
-}
+.float-img {
+    /* float: left; */
+    width: 100px;
+    opacity: 0.999;
+    height: 100px;
+    background: rgba(0, 0, 255, 0.5); /* 이미지 대신 파란 상자 */
+    
+    /* 핵심: 글자가 겹치도록 오른쪽 여백을 음수로 줌 */
+    /* margin-right: -90px; */
+  }
+  .text {
+    color: red; /* 잘 보이게 빨간색으로 */
+    font-weight: bold;
+  }
