@@ -1,0 +1,23 @@
+.menu{
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid #000;
+}
+.menu>ul{
+    height: 100%;
+    background-color: lightgray;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+}
+.sub{
+    width: 150px; display: none;
+    position: absolute;
+    top: 0;
+    left: 152px;
+}
+
+.menu>ul>li{background-color: pink;}
+.menu>ul>li:hover .sub{display: block;}
+.sub>li{background-color: orange;}
