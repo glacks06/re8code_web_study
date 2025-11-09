@@ -1,0 +1,14 @@
+section{
+    /* line-height: 50px; */
+}
+
+.before_box{
+    display: inline-block;
+}
+.a{
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    background-color: pink;
+    line-height: 50px;
+}
