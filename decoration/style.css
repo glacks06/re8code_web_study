@@ -1,0 +1,20 @@
+
+div{
+    overflow: hidden;
+    margin: 50px 0;
+    line-height: 28px;
+}
+img{
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    box-shadow: 0 0 10px black;
+}
+.a img {
+    border-radius: 15px;
+}
+.b img{
+    border-radius: 50%;
+    shape-outside: ellipse(50% 50%);
+}
